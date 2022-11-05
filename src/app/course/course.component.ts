@@ -43,7 +43,7 @@ export class CourseComponent implements OnInit {
   deleteCourse(id:number){
     this.courseService.deleteCourse(id).subscribe(data=>
       {
-        let courseIndex = this.courses.findIndex(c => c.id = id);
+        let courseIndex = this.courses.findIndex(c=>c.id===id);
         this.courses.splice(courseIndex, 1);
         this.viewAllCourses();
       }, 

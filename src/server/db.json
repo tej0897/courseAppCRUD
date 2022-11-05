@@ -1,5 +1,22 @@
 {
-    "course": [
-        
-    ]
+  "course": [
+    {
+      "courseName": "java",
+      "courseDuration": "3 months",
+      "coursePrice": "15000",
+      "id": 1
+    },
+    {
+      "courseName": "Python",
+      "coursePrice": "25000",
+      "courseDuration": "5 months",
+      "id": 2
+    },
+    {
+      "courseName": ".net",
+      "coursePrice": "50",
+      "courseDuration": "1 day",
+      "id": 3
+    }
+  ]
 }
